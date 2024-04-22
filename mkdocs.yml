@@ -1,0 +1,25 @@
+site_name: Data Engineer Team Up
+
+theme:
+  name: material
+  logo: icons/logo.ico
+  favicon: icons/logo.ico
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.path
+
+site_url: https://example.com
+
+
+nav:
+  - Home: 'index.md'
+  - Contact: 'contact.md'
+  - Slack: 'slackdiscussion.md'
+  - 'Professional': 'findingwork.md'
+  - resources.md
+  - talks.md
+  - 'Portfolio Projects': 'projects.md'
+
+extra_javascript:
+  - javascripts/newsletter.js
